@@ -1,0 +1,232 @@
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.navbar {
+    background-color: #343a40; 
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff !important; 
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; 
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    background-color: #343a40; 
+}
+
+.dropdown-item {
+    color: #fff !important; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    background-color: #343a40;
+    color: #fff;
+    border: 1px solid #ff6f61;
+}
+
+.btn-primary {
+    background-color: #ff6f61;
+    border-color: #ff6f61;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+}
+
+#login-link {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+#login-link:hover {
+    color: #e74c3c;
+}
+
+
+#register-link {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+#register-link:hover {
+    color: #e74c3c;
+}
+
+#myCard {
+    background-color: #343a40; /* Warna latar belakang kartu */
+    color: #fff; /* Warna teks pada kartu */
+    border: 1px solid #ff6f61; /* Warna border kartu - Red color */
+    border-radius: 10px; /* Bentuk sudut border kartu */
+    overflow: hidden; /* Mengatasi gambar yang lebih besar dari kartu */
+    max-width: 170px; /* Set the maximum width of the card */
+    margin: auto; /* Center the card */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#myCard:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+    box-shadow: 0 0 20px rgba(255, 111, 97, 0.5); /* Add a subtle glow effect */
+}
+
+#myCard img {
+    width: 100%; /* Make the image inside the card responsive */
+    height: auto; /* Maintain the aspect ratio */
+    border-bottom: 1px solid #ff6f61; /* Border pada bagian bawah gambar - Red color */
+}
+
+#myCard .card-body {
+    padding: 20px; /* Ruang di dalam kartu */
+}
+
+#myCard .card-title {
+    font-size: 1.5em; /* Ukuran font judul kartu */
+    margin-bottom: 10px; /* Ruang antara judul dan teks lainnya */
+}
+
+#myCard .card-text {
+    color: #b0bec5; /* Warna teks tambahan pada kartu */
+}
+
+.card {
+    background-color: #343a40; /* Warna latar belakang kartu */
+    color: #fff; /* Warna teks pada kartu */
+}
+
+.custom-section {
+    background-color: #1e272e; /* Dark background color */
+    color: hsl(0, 0%, 100%); /* Text color */
+    padding: 40px; /* Padding for the section */
+    border-radius: 10px; /* Optional: Add border radius for a rounded look */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.custom-section:hover {
+    transform: scale(1.05); /* Enlarge the section on hover */
+    box-shadow: 0 0 20px rgba(255, 111, 97, 0.5); /* Add a subtle glow effect */
+}
+
+.custom-section img {
+    display: block;
+    margin: 0 auto; /* Center the image */
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.custom-section h2 {
+    font-size: 2em; /* Adjust the font size for the heading */
+    margin-top: 20px; /* Add spacing above the heading */
+}
+
+.custom-section p {
+    font-size: 1.2em; /* Adjust the font size for paragraphs */
+    margin-bottom: 10px; /* Add spacing below each paragraph */
+}
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff; 
+}
+
+@keyframes glow {
+    0% {
+        color: #ff6f61; /* Red color */
+        text-shadow: 0 0 10px #ff6f61; /* Red text-shadow */
+    }
+    50% {
+        color: #e74c3c; /* Darker red color */
+        text-shadow: 0 0 20px #e74c3c; /* Darker red text-shadow */
+    }
+    100% {
+        color: #ff6f61; /* Red color */
+        text-shadow: 0 0 10px #ff6f61; /* Red text-shadow */
+    }
+}
+
+.navbar-brand a,
+.navbar-nav .nav-link,
+.dropdown-item,
+.btn-info {
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.navbar-brand a,
+.navbar-nav .nav-link:hover,
+.navbar-toggler-icon:hover,
+.dropdown-item:hover,
+.btn-info:hover {
+    animation: glow 1s infinite;
+}
+
+.dropdown-menu {
+    background-color: #343a40; /* Dark background color for the dropdown menu */
+}
+
+.dropdown-item {
+    color: #fff !important;
+}
+
+.dropdown-item:hover {
+    background-color: #ff6f61; /* Darker red color on item hover */
+}
+
+.dropdown-menu a {
+    color: #fff !important;
+}
+
+.dropdown-menu a:hover {
+    color: #fff;
+    text-decoration: none; /* Remove underline on item hover */
+}
+
+.btn-info {
+    background-color: #ff6f61; /* Red color */
+    border-color: #ff6f61; /* Red color */
+}
+
+.btn-info:hover {
+    background-color: #e74c3c; /* Darker red color on hover */
+    border-color: #e74c3c; /* Darker red color on hover */
+}
+
+#profileImage {
+    border: 2px solid #fff; 
+}
+
+#newsTable {
+    color: #000; /* Set the font color for the table */
+    background-color: #fff; /* Set the background color for the table */
+}
+
+#newsTable th,
+#newsTable td {
+    border-color: #000; /* Set the border color for table headers and cells */
+}
+
+#newsTable th {
+    background-color: #343a40; /* Dark background color for table headers */
+    color: #fff; /* Font color for table headers */
+}
+
+#newsTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate background color for even rows */
+}
+
+#newsTable tbody tr:hover {
+    background-color: #d9edf7; /* Background color on hover */
+}
